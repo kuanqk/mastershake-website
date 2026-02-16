@@ -41,19 +41,19 @@
       "id": 1,
       "name": "Шурабатыр (Шаке)",
       "specialization": "Мастер широкого профиля с 40-летним опытом (телевизоры, микроволновки, пылесосы, мелкая бытовая техника, инструменты, установка, подвеска и другое), инженер-электрик",
-      "image": "/images/master-1.jpg"
+      "image": "/images/master-1.png"
     },
     {
       "id": 2,
       "name": "Андрей",
       "specialization": "Мастер по ремонту холодильников",
-      "image": "/images/master-2.jpg"
+      "image": "/images/master-2.png"
     },
     {
       "id": 3,
       "name": "Яша",
       "specialization": "Мастер по ремонту пылесосов",
-      "image": "/images/master-3.jpg"
+      "image": "/images/master-3.png"
     }
   ],
 
