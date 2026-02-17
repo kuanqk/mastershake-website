@@ -59,6 +59,19 @@ export default function RootLayout({
             gap: 8px;
           }
           .btn-blue:hover { background-color: #2563eb; }
+          .btn-white {
+            background-color: #ffffff;
+            color: #2563eb;
+            font-weight: 600;
+            padding: 12px 24px;
+            border-radius: 8px;
+            transition: background-color 0.2s;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+          }
+.btn-white:hover { background-color: #f3f4f6; }
+          
           .btn-green {
             background-color: #22c55e;
             color: white;
