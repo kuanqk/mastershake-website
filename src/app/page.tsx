@@ -5,6 +5,7 @@ import Services from "@/components/Services";
 import CTA from "@/components/CTA";
 import Contacts from "@/components/Contacts";
 import Footer from "@/components/Footer";
+import WhatsAppFloat from "@/components/WhatsAppFloat";
 
 export default function Home() {
   return (
@@ -16,6 +17,9 @@ export default function Home() {
       <CTA />
       <Contacts />
       <Footer />
+      <WhatsAppFloat />
     </>
   );
 }
+
+
