@@ -46,6 +46,32 @@ export default function RootLayout({
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
         />
+        <style>{`
+          .btn-blue {
+            background-color: #3b82f6;
+            color: white;
+            font-weight: 600;
+            padding: 12px 24px;
+            border-radius: 8px;
+            transition: background-color 0.2s;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+          }
+          .btn-blue:hover { background-color: #2563eb; }
+          .btn-green {
+            background-color: #22c55e;
+            color: white;
+            font-weight: 600;
+            padding: 12px 24px;
+            border-radius: 8px;
+            transition: background-color 0.2s;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+          }
+          .btn-green:hover { background-color: #16a34a; }
+        `}</style>
       </head>
       <body>{children}</body>
     </html>

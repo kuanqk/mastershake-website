@@ -22,11 +22,11 @@ export default function Hero() {
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <a href={`tel:${primaryPhone.number}`} className="btn-primary flex items-center justify-center gap-2">
+        <a href={`tel:${primaryPhone.number}`} className="btn-blue">
             <Phone size={20} />
             {primaryPhone.display}
           </a>
-          <a href={whatsappLink} target="_blank" rel="noopener noreferrer" className="btn-secondary flex items-center justify-center gap-2">
+          <a href={whatsappLink} target="_blank" rel="noopener noreferrer" className="btn-green">
             <MessageCircle size={20} />
             Написать в WhatsApp
           </a>

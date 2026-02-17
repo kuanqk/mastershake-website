@@ -46,18 +46,19 @@ export default function Contacts() {
             </div>
           </div>
 
-          {/* Карта 2GIS */}
-          <div className="rounded-xl overflow-hidden shadow-sm h-72 md:h-full min-h-[288px]">
-            <iframe
-              src="https://widgets.2gis.com/widget?type=firmsonmap&options=%7B%22pos%22%3A%7B%22lat%22%3A43.2133%2C%22lon%22%3A76.8631%2C%22zoom%22%3A16%7D%2C%22table%22%3A%7B%22id%22%3A%2270000001044471776%22%7D%2C%22opt%22%3A%7B%22city%22%3A%22almaty%22%7D%7D"
-              width="100%"
-              height="100%"
-              style={{ border: 0 }}
-              allowFullScreen
-              loading="lazy"
-              title="Мастер+Шаке на карте"
-            />
-          </div>
+        {/* Карта Google Maps */}
+        <div className="rounded-xl overflow-hidden shadow-sm h-72 md:h-full min-h-[288px]">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2907.8!2d76.83672!3d43.22965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2z0LzQutGA0L4uINCQ0LrRgdCw0LktNCwg0LTQvtC8IDMw!5e0!3m2!1sru!2skz!4v1"
+            width="100%"
+            height="100%"
+            style={{ border: 0 }}
+            allowFullScreen
+            loading="lazy"
+            title="Мастер+Шаке на карте"
+          />
+        </div>
+
         </div>
       </div>
     </section>
