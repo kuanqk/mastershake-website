@@ -6,10 +6,12 @@ import CTA from "@/components/CTA";
 import Contacts from "@/components/Contacts";
 import Footer from "@/components/Footer";
 import WhatsAppFloat from "@/components/WhatsAppFloat";
+import Navbar from "@/components/Navbar";
 
 export default function Home() {
   return (
     <>
+      <Navbar />
       <Hero />
       <Advantages />
       <Masters />
@@ -17,7 +19,7 @@ export default function Home() {
       <CTA />
       <Contacts />
       <Footer />
-      <WhatsAppFloat />
+      <WhatsAppFloat />      
     </>
   );
 }

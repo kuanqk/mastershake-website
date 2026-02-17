@@ -70,8 +70,7 @@ export default function RootLayout({
             align-items: center;
             gap: 8px;
           }
-.btn-white:hover { background-color: #f3f4f6; }
-          
+          .btn-white:hover { background-color: #f3f4f6; }
           .btn-green {
             background-color: #22c55e;
             color: white;
@@ -84,6 +83,29 @@ export default function RootLayout({
             gap: 8px;
           }
           .btn-green:hover { background-color: #16a34a; }
+          .whatsapp-float {
+            position: fixed;
+            bottom: 24px;
+            right: 24px;
+            background-color: #25d366;
+            color: white;
+            border-radius: 50%;
+            width: 56px;
+            height: 56px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+            z-index: 1000;
+            transition: transform 0.2s;
+          }
+          .whatsapp-float:hover { transform: scale(1.1); }
+          .whatsapp-float:hover { background-color: #16a34a; }
+          .whatsapp-float:hover { color: white; }
+          @media (max-width: 768px) {
+          .hide-mobile { display: none !important; }
+          .show-mobile { display: block !important; }
+          }
         `}</style>
       </head>
       <body>{children}</body>
